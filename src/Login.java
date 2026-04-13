@@ -15,8 +15,8 @@ public class Login {
     }
 
     // Boolean check
-public boolean loginUser(String username,String password){
-        return username.equals(storedUsername)&&password.equals(storedPassword);
+public boolean loginUser(String storedUsername,String storedPassword){
+        return storedUsername.equals(storedUsername)&&storedPassword.equals(storedPassword);
 }
 
     // Return message

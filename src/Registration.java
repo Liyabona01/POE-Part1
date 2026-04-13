@@ -6,7 +6,8 @@ public class Registration {
     public String UserName;
     public String Password;
     public String PhoneNo;
-
+    public String FirstName;
+    public String LastName;
     // Username check
     public Boolean checkUsername(String Username) {
         return Username.contains("_") && Username.length() <= 5;
