@@ -40,5 +40,6 @@ public boolean loginUser(String storedUsername,String storedPassword){
        boolean result = loginUser(inputUsername, inputPassword);
 
        System.out.println(returnLoginStatus(result));
+
    }
 }
